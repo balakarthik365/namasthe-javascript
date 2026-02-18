@@ -108,7 +108,8 @@ createOrder()
 //ex: promise.all([p1,p2,p3])
 //Now p1 takes 3 seconds to resolve, p2 takes 2 seconds to resolve and p3 takes 1 second to resolve.
 //When all of them are success in that case. the output of all 3 will be an array with the result of each promise in the same order as the input promises.
-//[val1, val2 val3] - p1 -> val1, p2 -> val2, p3 -> val3.
+//[val1, val2 val3] - p1 -> 
+//  p2 -> val2, p3 -> val3.
 //promise.allSetteled([p1, p2, p3]); -> if p3 fails.
 //wait for all promises to be setteled either resolved or rejected.
 //[val1, val2, err3] - p1 -> val1, p2 -> val2, p3 -> err3.

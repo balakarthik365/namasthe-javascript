@@ -4,13 +4,46 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>JS Practice</title>
+    <style>
+      div {
+        border: 2px solid #ccc;
+        border-radius: 5px;
+        padding: 20px;
+        margin: 10px;
+        border-color: blue;
+      }
+    </style>
   </head>
   <body>
     <!-- <button id="clickMe">Click Me</button> -->
     <!-- <script src="app.js"></script> -->
     <!-- <script src="higherOrderFunctions.js"></script> -->
     <!-- <script src="callback.js"></script> -->
-    <script src="promise.js"></script>
+    <!-- <script src="promise.js"></script> -->
     <!-- <script src="asyncAwait.js"></script> -->
+    <!-- <button type="button" id="myButton" onclick="alert(this.value)">
+      Click Me
+    </button>
+    <script src="this.js"></script> -->
+    <input
+      type="text"
+      name="search"
+      id="search"
+      placeholder="Type to search..."
+      onkeyup="callApi()"
+    />
+    <div id="grand-parent">
+      <div id="parent">
+        <div id="child"></div>
+      </div>
+    </div>
+
+    <div id="category">
+      <button id="laptops">Laptops</button>
+      <button id="mobiles">Mobiles</button>
+      <button id="cameras">Cameras</button>
+      <p><b>List of Electronics</b></p>
+    </ul>
+    <script src="all.js"></script>
   </body>
 </html>
