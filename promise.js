@@ -175,3 +175,14 @@ const promiseAll = Promise.any([p1, p2, p3]) // returns the value of the first r
     console.log(err.errors);
   });
 console.log(promiseAll);
+// Promise.all()
+// → I need ALL APIs to succeed.
+
+// Promise.allSettled()
+// → I want results from ALL APIs even if some fail.
+
+// Promise.race()
+// → I want the FIRST completed promise.
+
+// Promise.any()
+// → I want the FIRST successful promise.
